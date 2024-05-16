@@ -118,6 +118,14 @@ const config: HardhatUserConfig = {
       url: "https://sepolia.publicgoods.network",
       accounts: [deployerPrivateKey],
     },
+    savmAlpha: {
+      url: "https://alpha-rpc-node-http.svmscan.io/",
+      accounts: [deployerPrivateKey],
+    },
+    savmTestnet: {
+      url: "https://test-rpc-node-http.svmscan.io",
+      accounts: [deployerPrivateKey],
+    },
   },
   // configuration for harhdat-verify plugin
   etherscan: {
